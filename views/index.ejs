@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <script src="javascripts/angular-chart.js"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Lab Coat Distributions @ Cal</p>
+    
+    <div ng-app="app" ng-controller="dataController"> 
+      <!--Div that will hold the chart    -->
+      <div id="chart_div"></div>
+      <div id="chart_div2"></div>
+    </div>
+  </body>
+</html>

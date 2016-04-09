@@ -1,0 +1,110 @@
+[
+  {
+    "Issue Date": "March",
+    "Flame Resistant Female": 451,
+    "Flame Resistant Male": 349,
+    "Traditional Female": 537,
+    "Traditional Male": 650,
+    "Barrier Female": 496,
+    "Barrier Male": 465
+  },
+  {
+    "Issue Date": "April",
+    "Flame Resistant Female": 0,
+    "Flame Resistant Male": 0,
+    "Traditional Female": 0,
+    "Traditional Male": 0,
+    "Barrier Female": 0,
+    "Barrier Male": 0
+  },
+  {
+    "Issue Date": "May",
+    "Flame Resistant Female": 337,
+    "Flame Resistant Male": 708,
+    "Traditional Female": 14,
+    "Traditional Male": 14,
+    "Barrier Female": 19,
+    "Barrier Male": 23
+  },
+  {
+    "Issue Date": "June",
+    "Flame Resistant Female": 26,
+    "Flame Resistant Male": 7,
+    "Traditional Female": 27,
+    "Traditional Male": 2,
+    "Barrier Female": 0,
+    "Barrier Male": 0
+  },
+  {
+    "Issue Date": "July",
+    "Flame Resistant Female": 0,
+    "Flame Resistant Male": 0,
+    "Traditional Female": 0,
+    "Traditional Male": 0,
+    "Barrier Female": 0,
+    "Barrier Male": 0
+  },
+  {
+    "Issue Date": "August",
+    "Flame Resistant Female": 128,
+    "Flame Resistant Male": 0,
+    "Traditional Female": 75,
+    "Traditional Male": 38,
+    "Barrier Female": 77,
+    "Barrier Male": 78
+  },
+  {
+    "Issue Date": "September",
+    "Flame Resistant Female": 0,
+    "Flame Resistant Male": 0,
+    "Traditional Female": 0,
+    "Traditional Male": 0,
+    "Barrier Female": 0,
+    "Barrier Male": 0
+  },
+  {
+    "Issue Date": "October",
+    "Flame Resistant Female": 83,
+    "Flame Resistant Male": 90,
+    "Traditional Female": 58,
+    "Traditional Male": 40,
+    "Barrier Female": 71,
+    "Barrier Male": 53
+  },
+  {
+    "Issue Date": "November",
+    "Flame Resistant Female": 201,
+    "Flame Resistant Male": 243,
+    "Traditional Female": 112,
+    "Traditional Male": 82,
+    "Barrier Female": 93,
+    "Barrier Male": 89
+  },
+  {
+    "Issue Date": "December",
+    "Flame Resistant Female": 44,
+    "Flame Resistant Male": 44,
+    "Traditional Female": 9,
+    "Traditional Male": 650,
+    "Barrier Female": 10,
+    "Barrier Male": 52
+  },
+  {
+    "Issue Date": "January 2015",
+    "Flame Resistant Female": 21,
+    "Flame Resistant Male": 21,
+    "Traditional Female": 58,
+    "Traditional Male": 88,
+    "Barrier Female": 18,
+    "Barrier Male": 47
+  },
+  {
+    "Issue Date": "February 2015",
+    "Flame Resistant Female": 31,
+    "Flame Resistant Male": 20,
+    "Traditional Female": 27,
+    "Traditional Male": 12,
+    "Barrier Female": 12,
+    "Barrier Male": 9
+  }
+]
