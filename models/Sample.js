@@ -6,5 +6,7 @@ var SampleSchema = new mongoose.Schema({
 {
     collection: 'ppe_for_stack'
 });
+
+
 mongoose.model('Sample', SampleSchema);
 

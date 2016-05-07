@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <script src="javascripts/angular-chart.js"></script>
+    <!--BOOTSTRAP -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="row">
+    <div class="col-sm-6 col-md-8 col-lg-10 col-md-offset-1">
+      <div id="user">
+          <h1 class="col-lg-8" style="margin-top:0px;"><%= title %></h1>
+          <h4 class="col-lg-4"><a href="/signout" class="text-right new-account ">Sign Out</a></h4>
+    <p class="col-lg-12">Lab Coat Distribution @ Cal</p>
+      </div>
+    </div>
+  </div>
+
+    <div ng-app="app" ng-controller="dataController"> 
+      <!--Div that will hold the chart    -->
+      <div id="chart_div" style="max-width: 85%;"></div>
+      <div id="chart_div2"></div>
+      
+    </div>
+  </body>
+</html>

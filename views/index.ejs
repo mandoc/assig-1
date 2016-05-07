@@ -5,16 +5,48 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
-    <script src="javascripts/angular-chart.js"></script>
+    <!--BOOTSTRAP -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Lab Coat Distributions @ Cal</p>
+    
+    
     
     <div ng-app="app" ng-controller="dataController"> 
-      <!--Div that will hold the chart    -->
-      <div id="chart_div"></div>
-      <div id="chart_div2"></div>
+      
+      <!--Div that will hold the Login    -->
+      <div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title"><span class="fa fa-sign-in"></span> Login to our <%= title %> app
+        <div class="account-wall"><img src="https://lh3.googleusercontent.com/-EF9BoynKc9w/AAAAAAAAAAI/AAAAAAAAAAA/1au5roMkCC4/photo.jpg" class="profile-img" style="max-width:150px;"/>
+          <h1></h1>
+          <!-- show any messages that come back with authentication -->
+    <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %>
+          <form action="/login" method="POST" class="form-signin">
+          <input type="text" name="username" placeholder="Username" required="required" autofocus="autofocus" class="form-control"/>
+          <input type="password" name="password" placeholder="Password" required="required" class="form-control"/>
+          <button type="submit" class="btn btn-warning btn-lg">Login</button>
+          <a href="/login/facebook" class="btn btn-block btn-social btn-facebook"><i class="fa fa-facebook"></i> Login with Facebook</a>
+           <a href="/login/linkedin" class="btn btn-default">Login with LinkedIn</a>
+        </form>
+        <hr>
+
+    <p>Need an account? <a href="/signup">Signup</a></p>
+        <div id="message"></div>
+      </h1>
+    </div>
+  </div>
+</div>
+      
+    
+
+      
     </div>
   </body>
 </html>
